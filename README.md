@@ -53,7 +53,7 @@ Tenha usuário e senha do Ubuntu e do Termux.
 ### Copiar um arquivo
 No Termux:
 ```bash
-scp ~/caminho/do/arquivo.ext usuario_debian@192.168.0.117:~/destino/
+scp ~/caminho/do/arquivo.ext usuario_ubuntu@192.168.0.117:~/destino/
 ```
 
 **Exemplo:**

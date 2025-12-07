@@ -48,7 +48,7 @@ Tenha usuário e senha do Ubuntu e do Termux.
 
 ## 1. 📤 Copiar arquivos **do Termux para o Ubuntu**
 
-➡️ **Aqui não é necessário informar porta**, pois o Debian usa a porta padrão `22`.
+➡️ **Aqui não é necessário informar porta**, pois o Ubuntu usa a porta padrão `22`.
 
 ### Copiar um arquivo
 No Termux:
@@ -78,7 +78,7 @@ scp -r ~/meusarquivos andre@192.168.0.117:~/Documentos/
 ➡️ Aqui **é obrigatório** informar a porta **8022**, que é a porta do SSH no Termux.
 
 ### Copiar um arquivo
-No Debian:
+No Ubuntu:
 ```bash
 scp -P 8022 ~/caminho/do/arquivo.ext usuario_termux@192.168.0.144:~/destino/
 ```

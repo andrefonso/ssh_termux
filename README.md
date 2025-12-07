@@ -29,9 +29,11 @@ sudo systemctl start ssh
 ```bash
 ifconfig
 ```
-**Debian:**
+**Ubuntu:**
 ```bash
-ip addr
+ip addr ou
+hostname -I
+
 ```
 
 ### 3. Liberar acesso ao armazenamento no Termux
@@ -40,11 +42,11 @@ termux-setup-storage
 ```
 
 ### 4. Credenciais de acesso
-Tenha usuário e senha do Debian e do Termux.
+Tenha usuário e senha do Ubuntu e do Termux.
 
 ---
 
-## 1. 📤 Copiar arquivos **do Termux para o Debian**
+## 1. 📤 Copiar arquivos **do Termux para o Ubuntu**
 
 ➡️ **Aqui não é necessário informar porta**, pois o Debian usa a porta padrão `22`.
 
@@ -71,7 +73,7 @@ scp -r ~/meusarquivos andre@192.168.0.117:~/Documentos/
 
 ---
 
-## 2. 📥 Copiar arquivos **do Debian para o Termux**
+## 2. 📥 Copiar arquivos **do Ubuntu para o Termux**
 
 ➡️ Aqui **é obrigatório** informar a porta **8022**, que é a porta do SSH no Termux.
 
@@ -100,7 +102,7 @@ scp -P 8022 -r ~/Documentos u0_a123@192.168.0.144:~/storage/shared/
 
 ## 3. 🔧 Testando o SSH
 
-### Debian → Termux
+### Ubuntu → Termux
 ```bash
 ssh -p 8022 usuario_termux@192.168.0.144
 ```
@@ -125,5 +127,5 @@ Se houver erro, verifique:
 
 ---
 
-Pronto! Agora você já consegue transferir arquivos entre o Debian e o Termux de forma simples usando SSH. 🚀
+Pronto! Agora você já consegue transferir arquivos entre o Ubuntu e o Termux de forma simples usando SSH. 🚀
 

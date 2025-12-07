@@ -1,6 +1,6 @@
 # ssh_termux
-Tutorial de como copiar arquivos entre computadores com Linux e smartphone usando o Termux e vice-versa
-# Tutorial: Como copiar arquivos entre um notebook Debian e um celular com Termux usando SSH
+
+# Tutorial: Como copiar arquivos entre computadores com Ubuntu e um celular com Termux usando SSH
 
 Este tutorial ensinará como copiar arquivos e pastas entre um computador com **Ubuntu** (IP: `192.168.0.117`) e um celular com **Termux** (IP: `192.168.0.144`), utilizando o **SSH**. O Termux está configurado para usar a porta **8022** para conexões SSH.
 
